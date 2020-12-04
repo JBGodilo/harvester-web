@@ -3,18 +3,21 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4400",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "postinstall": "ng build --aot --prod"
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "~10.0.4",
     "@angular/cdk": "^10.2.7",
+    "@angular/cli": "~10.0.3",
     "@angular/common": "~10.0.4",
     "@angular/compiler": "~10.0.4",
+    "@angular/compiler-cli": "~10.0.4",
     "@angular/core": "~10.0.4",
     "@angular/forms": "~10.0.4",
     "@angular/localize": "~10.0.4",
@@ -26,9 +29,12 @@
     "@ng-bootstrap/ng-bootstrap": "^8.0.0",
     "angular": "^1.8.2",
     "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
     "jquery": "^3.5.1",
+    "path": "^0.12.7",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
+    "typescript": "~3.9.5",
     "zone.js": "~0.10.3"
   },
   "devDependencies": {
@@ -50,5 +56,9 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"
+  },
+  "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
   }
 }
