@@ -1,6 +1,12 @@
-# YeshuaHarvesterChurch
+# Yeshua Harvesters Church
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
+This is a web application of the Yeshua harvesters church
+
+## Techonologies used
+1. Angular 10
+2. Progressive Web App (PWA)
+3. Boostrap 4
+4. Font-awesome
 
 ## Development server
 
