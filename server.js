@@ -9,7 +9,7 @@ app.use(express.static(__dirname + '/dist/yeshua-harvester-church'));
 
 app.get('/*', function(req,res) {
     
-res.sendFile(path.join(__dirname+'/dist/yeshua-harvester-church/index.html'));
+res.sendFile('index.html', {root: 'dist/yeshua-harvester-church'});
 });
 
 // Start the app by listening on the default Heroku port
