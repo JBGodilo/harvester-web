@@ -39,4 +39,8 @@ const COUNTRIES: Country[] = [
 export class AppComponent {
   title = 'yeshua-harvester-church';
   countries = COUNTRIES;
+
+  constructor() {
+
+  }
 }

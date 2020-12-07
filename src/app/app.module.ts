@@ -6,6 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
+import { DialogModule } from './dialog/dialog.module';
 import { environment } from '../environments/environment';
 
 import { NavbarComponent } from './navbar/navbar.component';
@@ -26,7 +27,8 @@ import { FooterComponent } from './footer/footer.component';
     NgbModule,
     BrowserAnimationsModule,
     MaterialModule,
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    DialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

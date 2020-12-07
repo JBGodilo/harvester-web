@@ -4,14 +4,15 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build --prod",
+    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build"
   },
   "private": true,
   "dependencies": {
+    "@agm/core": "^3.0.0-beta.0",
     "@angular/animations": "~10.0.4",
     "@angular/cdk": "^10.2.7",
     "@angular/cli": "~10.0.3",
@@ -41,9 +42,10 @@
     "@angular-devkit/build-angular": "~0.1000.3",
     "@angular/cli": "~10.0.3",
     "@angular/compiler-cli": "~10.0.4",
-    "@types/node": "^12.11.1",
+    "@types/googlemaps": "3.39.12",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~5.0.0",
