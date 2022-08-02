@@ -1,0 +1,21 @@
+.navbar-block {
+  display: block;
+
+  .logo {
+    margin: auto;
+    width: fit-content;
+    display: grid;
+
+    .icon {
+      margin: auto;
+    }
+
+    .logo-text {
+      color: #fff;
+      font-size: 25px;
+    }
+  }
+}
+.nav-bar-center {
+  margin: auto;
+}

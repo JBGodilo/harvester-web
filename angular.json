@@ -132,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "yeshua-harvester-church"
+  "defaultProject": "yeshua-harvester-church",
+  "cli": {
+    "analytics": false
+  }
 }
